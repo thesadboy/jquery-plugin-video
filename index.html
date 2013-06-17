@@ -1,0 +1,20 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>video plugin</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/video-plugin.css">
+	<script src="js/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/video-plugin.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div class="video-container">
+		<video src="media/1.mp4" autobuffer autoloop loop></video>
+	</div>
+</body>
+<script type="text/javascript">
+	$('.video-container').videoPlayer({
+		title : '测试视频'
+	});
+</script>
+</html>
